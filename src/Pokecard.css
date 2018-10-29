@@ -1,0 +1,24 @@
+.PokeCard {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid black;
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.PokeCard:hover {
+  transform: scale(1.3);
+}
+
+.NamePokemon {
+  color: blue;
+  font-weight: bold;
+}
+
+.TypePokemon {
+  font-size: 15px;
+}
